@@ -367,6 +367,8 @@ object {
 	margin: 0.8075em 0;
 }
 
+.site-info {display:none;}
+
 /**
  * 6.0 - Galleries
  */

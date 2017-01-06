@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+	.site-info {display:none;}
 	.sidebar,
 	.content-area,
 	.inside-footer-widgets > div {
