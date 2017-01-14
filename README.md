@@ -18,8 +18,12 @@
 
 <h2>Table of Contents</h2>
 - [Introduction](#introduction)
+  - [Why did I write this documentation](#why-did-i-write-this-documentation)
+  - [Who is my target audience](#who-is-my-target-audience)
+  - [What does the documentation entail](#what-does-the-documentation-entail)
+  - [Wordpress Release](#wordpress-release)
 - [Why Wordpress](#why-wordpress)
-- [Technical Requirements](#technical-requirements)
+- [Technologies used](#technologies-used)
   - [Elementor](#elementor)
   - [WPGlobus for WPBakery Visual Composer](#wpglobus-for-wpbakery-visual Composer)
   - [Google Maps Widget](#google-maps-widget)
@@ -34,14 +38,32 @@
 
 # Introduction
 
-Chances are that if you have landed on this page via Google searching for CMS platforms and open-source developers, then you already have heard of Wordpress and lucky you because here you got both. An open-source fanatic with a documented code. 
+Wordpress is a CMS that uses plugins, themes etc to enhance the functionality and usability within a website. It runs PHP in the BackEnd and HTML5 and CSS (no severside scrypting like SASS). Many bloggers do use wordpress due to it's versatility and UX/UI customizability. 
 
-Firstly, I would like to point out that code, whether basic or sophisticated like a mixture of Lisp and Intercal, it should bear documentation if it so happens that an application is built from it. All this hype from programmers online hangouts that (**Real programmers don't document their programs. Documentation is for simpletons who can't read listings or the object code from dumps**) doesn't make sense if someone is engaging with clients who want to know how their software works. 
+## Why did I write this documentation
 
-Secondly, this documentation is not written to learn how to use the website. Everyone at this age and time can browse a website and download or purchase stuff online. This is a brief synopsis of how I created the software and with what technologies. Important! I get requested for it a lot by nontechnicals, but I still stand with Eric S. Raymond's quote. *if they have to read documentation to use it you designed it wrong.*  
+In the past I used to code and push to GitHub without documentation, especially when I was creating Ruby on Rails apps. But then when people started writing and asking me if they could use it in their applications, etc, then I thought I should write some documentation. 
 
-Since it's release in 2003, Wordpress has evolved tremendously and now has become one of the best web technologies in building websites. 
-At the time of writing, Wordpress powers close to 75 million websites. So what is it? 
+Hopefully 20, 50, or even 80 years from now, people will read this and see how backward we were? (*Sorry for hitting reality on it's head*) but that is what kiddos think of the old tech like the 70's and 80's. Take a look at this IBM's revolutionary computer, the **IBM 5110**. 
+It was the smallest and first portable computer weighing **28 kg's** and costed **$ 10,975**. It boasted a **64 kb of RAM** while I'm currently complaining my iMacs **32 GB of RAM** to be *somewhat* insufficient. 
+See the IBM 5110 below.
+<center>![5](https://cloud.githubusercontent.com/assets/20464709/21954623/e9df5ec8-da56-11e6-904e-7508c1d1cbac.jpeg)</center>
+*Source: IBM*
+<hr>
+
+## Who is my target audience
+
+I figured out that the people who were asking if they could use my software were the people who needed help to know how the code worked. The rule of the thumb is; *if it's on GitHub, then it's open source and freely to use under the MIT license.* But after getting stuck, unseasoned developers are prompted to write to software owners and request help/opinion on how a piece of script would fit well in their projects. 
+
+So this documentation is targeted to developers and users who are curious to know the behind the scenes stuff on what made it possible for the application to come to be.
+
+## What does the documentation entail
+
+The Scope of this documentation is to show in the **basic** way possible (without jargon) the steps I took in building this application. This is NOT a **tutorial**. It won't teach your anything about CMS's, MEAN Stack, DB's or what have you. Just to let you know before you get started (I value people's time :-). 
+
+## Wordpress Release
+Wordpress was released in 2003 and since then it has evolved tremendously and now has become one of the best web technologies in building websites. 
+At the time of writing, Wordpress powers close to 75 million websites. So what is Wordpress anyway? 
 
 Wordpress is an open-source [Content Management System (CMS)](https://en.wikipedia.org/wiki/WordPress) that uses [Hypertext Preprocessor (PHP)](https://en.wikipedia.org/wiki/PHP) for its BackEnd (server-side) system and [MySQL](https://en.wikipedia.org/wiki/MySQL) to manage it's databases (DB). PHP is a server-side scripting language which is amazing in web development; this is due to it's flexibility to be embedded in [HTML](https://en.wikipedia.org/wiki/HTML), more or less the way [Ruby](https://en.wikipedia.org/wiki/Ruby_on_Rails) is embedded in Rails. PHP is very versatile and compatible across many browsers, web servers and operating systems. The preference of using it for server-side systems has grown and will continue due to it's de-facto pro-bono policy. Same applies to MySQL.
 
@@ -64,12 +86,22 @@ There are a myriad of reason as to why I love using open-source software in desi
 
 # Why Wordpress?
 
-Wordpress is great in building almost any website. A developer can design a theme and sell to whomever wants to buy, eg [themeforest](https://themeforest.net/search?utf8=%E2%9C%93&term=ecommerce&as=0&referrer=homepage), etc. Themes vary from free downloadables to a cost that would vary from  $2, see [here](https://themeforest.net/item/sketch-and-css-bridging-the-gap/15284085?s_rank=1) up to a cost way beyond $999, like  [this](https://themeforest.net/item/fightclub-fight-fitness-club-psd-template/12237033?s_rank=17). It all depends really on what your website entails, your target audience, security features, design, etc. 
+Wordpress has somewhat become trendy in building CMS's for web publishing if the main goal is to have a website with pages, media, links and posts. A skilled developer can easily venture deep in the Wordpress ecosystem and use themes and plugins to suit his/her **needs**. Talking of needs, a bus cannot float on water unless it's well customised to function like a boat, like a case I saw in Budapest.   
+<div>
+<center>![img_9373](https://cloud.githubusercontent.com/assets/20464709/21954779/f02dbfe0-da5b-11e6-9d50-4fb5b11a5981.JPG)</center>  
+</div>
+<hr>
 
-Wordpress, [Joomla](https://en.wikipedia.org/wiki/Joomla) and [Drupal](https://en.wikipedia.org/wiki/Drupal) are the trending CMS systems in the planet at the time of writing. Their ability to deliver projects within the given time frame coupled with their versatility to use functionalities which reside in plugins have led to their growth and support globally. 
+That out of the way, it's important to underscore the fact that complex applications will need complex technologies eg banks, hospitals, corporate companies, etc. 
+
+When it comes to themes, a developer can design one and sell to whomever wants to buy, eg [themeforest](https://themeforest.net/search?utf8=%E2%9C%93&term=ecommerce&as=0&referrer=homepage), etc. Themes vary from free downloadables to a cost that would vary from  $2, see [here](https://themeforest.net/item/sketch-and-css-bridging-the-gap/15284085?s_rank=1) up to a cost way beyond $999, like  [this](https://themeforest.net/item/fightclub-fight-fitness-club-psd-template/12237033?s_rank=17). It all depends really on what your website entails, your target audience, security features, design, etc. 
+
+Been an open-source technology, bugs within the CMS are fixed in a timely manner and any developer can contribute via a pull request and later submitting in GitHub. 
+
+Wordpress, [Joomla](https://en.wikipedia.org/wiki/Joomla) and [Drupal](https://en.wikipedia.org/wiki/Drupal) are currently the trending CMS systems in the planet at the time of writing. Their ability to deliver projects within a given time frame coupled with their versatility to use functionalities which reside in plugins have led to their growth and support globally. 
  
 
-# Technical Requirements
+# Technologies used
 
 
 ## Elementor
@@ -199,8 +231,15 @@ To finish up, just enter the correct values into the widget. For more informatio
 
 ### Maps API Access Key
 
-The Google Maps Javascript API v3 does not require an API key to function properly. However, Google strongly encourages you to load the Maps API using an APIs Console key which allows you to monitor your application's Maps API usage.
-You can get an API key by following [the steps provided here](https://developers.google.com/maps/documentation/javascript/get-api-key)
+The Google Maps Javascript API v3 does not require an API key to function properly. However, I have loaded the Maps API using an APIs Console key which will allow the webmaster / site administrator to monitor the application's Maps API usage.
+
+### Authentications
+
+Google JavaScript API do need authentications. I have a premium plan and thus enjoy two authentication options. 
+  - **API key** set up in the Google Maps APIs 
+  - **Client ID** instead of an API key.
+I always encourage clients to get a private API instead of using APIS's from a developer for many reasons which are beyond the scope of this documentation. 
+Many developers also turn out as site admins after delivering projects enjoying some special perks as website maintenance. Having a private API key, you can log in and see what's happening instead of relying on what someone else is saying. (Remember the old adage? **Trust but Verify.**) 
 
 
 ## Simple Light Box
@@ -342,7 +381,7 @@ Using jQuery to code has been very rewarding as it solves many a problem with le
 
 It's no doubt that Adobe Photoshop remains the best raster graphics editor on the planet. It's ability to use RGB, CMYK, duotone, etc coupled with the great variety of image extensions makes it the best option to edit images professionally. 
 
-I have used it previously for image sizing and for enhancing vivid display accross platforms from smart tv's to smart phones. In this project, large images have been targeted for big displays like desktops whilst small displays have images of reduced dimensions in pixels.
+I have extensive experience in PSD design even prior to my web development career. I used it in this project for image sizing and for enhancing vivid display accross platforms from smart tv's to smart phones. I have targeted large images for big displays like desktops whilst small displays have images of reduced dimensions in pixels.
 
 I tweak images to ensure that pixels are not lost when switching viewports and that the image extensions like **.jpeg** and **.png** are well saved to curb image degradation. 
 
@@ -354,7 +393,7 @@ In most cases I code locally and later upload to my cPanel. I will try andupload
 
 ## Developer
 
-Joseph Musembi Mwania
+Joseph M Mwania
 
 ## Contacts
 
