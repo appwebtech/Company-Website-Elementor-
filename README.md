@@ -34,6 +34,7 @@
   - [Deployment instructions](#deployment-instructions)
   - [Developer](#developer)
   - [Contacts](#contacts)
+  - [License](#license)
 
 
 # Introduction
@@ -86,10 +87,10 @@ There are a myriad of reason as to why I love using open-source software in desi
 
 # Why Wordpress?
 
-Wordpress has somewhat become trendy in building CMS's for web publishing if the main goal is to have a website with pages, media, links and posts. A skilled developer can easily venture deep in the Wordpress ecosystem and use themes and plugins to suit his/her **needs**. Talking of needs, a bus cannot float on water unless it's well customised to function like a boat, like a case I saw in Budapest.   
-<div>
-<center>![img_9373](https://cloud.githubusercontent.com/assets/20464709/21954779/f02dbfe0-da5b-11e6-9d50-4fb5b11a5981.JPG)</center>  
-</div>
+Wordpress has somewhat become trendy in building CMS's for web publishing especially if the main goal is to have a website with pages, media, links and posts. A skilled developer can easily venture deep in the Wordpress ecosystem and use themes and plugins to suit his/her **needs**. Talking of needs, a bus cannot float on water unless it's well customised to function like a boat, like a case I saw in Budapest.   
+
+![img_9373](https://cloud.githubusercontent.com/assets/20464709/21954779/f02dbfe0-da5b-11e6-9d50-4fb5b11a5981.JPG)
+
 <hr>
 
 That out of the way, it's important to underscore the fact that complex applications will need complex technologies eg banks, hospitals, corporate companies, etc. 
@@ -239,7 +240,8 @@ Google JavaScript API do need authentications. I have a premium plan and thus en
   - **API key** set up in the Google Maps APIs 
   - **Client ID** instead of an API key.
 I always encourage clients to get a private API instead of using APIS's from a developer for many reasons which are beyond the scope of this documentation. 
-Many developers also turn out as site admins after delivering projects enjoying some special perks as website maintenance. Having a private API key, you can log in and see what's happening instead of relying on what someone else is saying. (Remember the old adage? **Trust but Verify.**) 
+
+Many developers also turn out as site admins after delivering projects enjoying some special perks for website maintenance. Having a private API key, you can log in and see what's happening instead of relying on what someone else is saying. (Remember the old adage? **Trust but Verify.**) 
 
 
 ## Simple Light Box
@@ -407,6 +409,9 @@ https://www.facebook.com/theappwebtech/
 
 https://it.pinterest.com/appwebtech/
 
+## License 
+
+MIT License. Copyright 2017
 
 
 
