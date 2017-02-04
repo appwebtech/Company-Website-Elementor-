@@ -3,7 +3,7 @@
 <h2>Software Development Documentation</h2>
   <h3>
     <a href="http://theappwebtech.com">
-      Appwebtech
+      Demo Website in WP CMS
     </a>
   </h3>
 </div>
@@ -391,7 +391,7 @@ I tweak images to ensure that pixels are not lost when switching viewports and t
 
 Deploy to a server which supports Wordpress like Godaddy, HostGator etc. HostGator is more speedy in loading pages imo than other websites.
 
-In most cases I code locally and later upload to my cPanel. I will try andupload this website and fight the urge of pulling it down. (For some reason many people buy demo websites and request that they get pulled down. Let's cross fingures to thwart that.) 
+In most cases I code locally and later upload to my cPanel. I will try and upload this website and fight the urge of pulling it down. (For some reason many people buy demo websites and request that they get pulled down. Let's cross fingures to thwart that.) 
 
 ## Developer
 
